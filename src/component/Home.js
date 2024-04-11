@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="h-full flex justify-center items-center">
       <h1 className="m-5 font-bold text-3xl">
-        HOME
+        HOME 집에 가자
       </h1>
       <h1 className="m-5 font-bold text-3xl">
         {currentTime && `현재시각 : ${currentTime.toLocaleTimeString()}`}
